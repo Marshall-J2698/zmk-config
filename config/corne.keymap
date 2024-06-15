@@ -31,12 +31,12 @@
 // -----------------------------------------------------------------------------------------
 // |  1   |  2  |  3  |  4  |  5  |  6  |      |  7  |  8  |  9  |  0  | -   |   =  |
 // | !    | @   | #   |  $  |  %  |  ^  |      |  &  | *   |  (  |  )  |  -  |   +  |
-// | SHFT |     |     |     |     |     |      |     |  `  | [   |  ]  | \   |      |
+// | SHFT |     |  `  | [   |  ]  | \   |      |     |     |     |     |     |      |
 //                    | GUI |     | SPC |      | bspc|     | ALT |
                         bindings = <
    &kp N1     &kp N2       &kp N3       &kp N4       &kp N5         &kp N6           &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS  &kp EQUAL 
    &kp EXCL   &kp AT       &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET        &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp UNDER   &kp PLUS
-   &kp LSHFT  &trans       &trans       &trans       &trans         &trans           &trans    &kp GRAVE  &kp LBKT  &kp RBKT  &kp BSLH     &trans
+   &kp LSHFT  &trans       &kp GRAVE    &kp LBKT     &kp RBKT       &kp BSLH         &trans    &trans    &trans     &trans    &trans    &trans
                                     &kp LGUI     &kp SPACE       &kp SPACE           &kp BSPC  &trans   &kp RALT
                         >;
                 };
@@ -74,12 +74,12 @@
 // -----------------------------------------------------------------------------------------
 // |  F1 |  F2  |  F3 | F4  | F5  |  F6 |       | F7  | F8  | UP  | F10 | F11  | F12 |
 // | CTRL |     |     |     |     |     |       |     | ~   |  [  |  ]  |  \  |      |
-// | SHFT |     |     |     |     |     |       |     |     |     |     |     |      |
+// | SHFT |     |     |     |     |boot |       |boot |     |     |     |     |      |
 //                    | GUI |     | SPC |       |bkscp|     | ALT |
                         bindings = <
    &kp F1    &kp F2   &kp F3 &kp F4   &kp F5   &kp F6      &kp F7 &kp F8  &kp F9 &kp F10 &kp F11 &kp F12
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &trans   &kp GRAVE  &kp LBKT  &kp RBKT  &kp BSLH   &trans
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &trans   &trans    &trans     &trans    &trans     &trans
+   &kp LSHFT &trans   &trans &trans   &trans   &bootloader      &bootloader   &trans    &trans     &trans    &trans     &trans
                              &kp LGUI &kp SPACE   &kp SPACE   &kp BSPC   &trans    &kp RALT
                         >;
                 };
