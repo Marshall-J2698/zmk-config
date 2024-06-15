@@ -35,7 +35,7 @@
 //                    | GUI |     | SPC |      | bspc|     | ALT |
                         bindings = <
    &kp N1     &kp N2       &kp N3       &kp N4       &kp N5         &kp N6           &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS  &kp EQUAL 
-   &kp EXCL   &kp AT       &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET        &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp EQUAL   &kp PLUS
+   &kp EXCL   &kp AT       &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET        &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp UNDER   &kp PLUS
    &kp LSHFT  &trans       &trans       &trans       &trans         &trans           &trans    &kp GRAVE  &kp LBKT  &kp RBKT  &kp BSLH     &trans
                                     &kp LGUI     &kp SPACE       &kp SPACE           &kp BSPC  &trans   &kp RALT
                         >;
@@ -44,12 +44,12 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | !    | @   | #   |  $  |  %  |  ^  |       |  &  | *   |  (  |  )  |  -  |   +  |
+// | !    | @   | #   |  $  |  %  |  ^  |       |  &  | *   |  (  |  )  |  _  |   +  |
 // | CTRL |     |     |     |     |     |       |     | ~   |  [  |  ]  |  \  |      |
 // | SHFT |     |     |     |     |     |       |     |     |     |     |     |      |
 //                    | GUI |     | SPC |       |bkscp|     | ALT |
                         bindings = <
-   &kp EXCL  &kp AT   &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET        &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp EQUAL   &kp PLUS
+   &kp EXCL  &kp AT   &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET        &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp UNDER   &kp PLUS
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &trans   &kp GRAVE  &kp LBKT  &kp RBKT  &kp BSLH   &trans
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &trans   &trans    &trans     &trans    &trans     &trans
                              &kp LGUI &kp SPACE   &kp SPACE   &kp BSPC   &trans    &kp RALT
